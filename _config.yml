@@ -18,7 +18,7 @@ name                     : &name "mxsm" # &name is a YAML anchor which can be *r
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://mxsm.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/rocketmq-rust" # the subpath of your site, e.g. "/blog"
-repository               : "mxsm/rocketmq-rust"
+repository               : "mxsm/rocketmq-rust-site"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -26,9 +26,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 enable_copy_code_button  : true
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
+  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "ljbmxsm"
+    shortname            : 
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
