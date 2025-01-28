@@ -16,9 +16,9 @@ title_separator          : "-"
 subtitle                 : "Document for RocketMQ Rust"
 name                     : &name "mxsm" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : http://127.0.0.1 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mxsm.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/rocketmq-rust" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
+repository               : "mxsm/rocketmq-rust"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
