@@ -9,7 +9,6 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'mxsm/rocketmq-rust-site'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
