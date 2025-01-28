@@ -34,6 +34,8 @@ jobs:
           ruby-version: '3.0' # Specify the Ruby version you need
       - name: Install dependencies
         run: bundle install
+      - name: List files in repository
+        run: ls -laR .
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
