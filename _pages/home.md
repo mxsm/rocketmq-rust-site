@@ -4,35 +4,38 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/header.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fa fa-rocket'></i> Quick Start"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2">Latest release v4.26.2</a></small>
+  🚀Apache RocketMQ build in Rust🦀. Faster, safer, and with lower memory usage.<br />
+  <small><a href="https://github.com/mxsm/rocketmq-rust/releases/tag/v0.4.0">Latest release 🔖v0.4.0</a></small><br />
+  <small><a class="github-button" href="https://github.com/mxsm/rocketmq-rust" data-icon="octicon-star" data-show-count="true" aria-label="Star mxsm/rocketmq-rust on GitHub">Star</a>
+  <a class="github-button" href="https://github.com/mxsm/rocketmq-rust/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork mxsm/rocketmq-rust on GitHub">Fork</a>  
+  </small><br />
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/fast.png
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+    title: "Faster"
+    excerpt: "The asynchronous Tokio framework provides faster processing."
+  - image_path: /assets/images/safe.png
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+    title: "Safe"
+    excerpt: "Development based on Rust is more secure."
+  - image_path: /assets/images/low.png
     alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    title: "Lower memory usage"
+    excerpt: "Through underlying optimizations, lower memory usage is achieved."
 ---
 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<meta name="algolia-site-verification"  content="AECDAB6BC16D0E19" />
+## Feature
+
 {% include feature_row %}
+
+## Architecture
+
+![](/assets/images/architecture.png)
+
